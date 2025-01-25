@@ -1,0 +1,76 @@
+
+/* General: aplica un fondo de imagen con un degradado oscuro */
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    padding: 10px 0;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-left: -90px;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.boton1 {
+    margin-top: 6px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.boton1:hover {
+    background-color: #f73228;
+}
+.usuario {
+    display: flex; /* Usar flexbox para alinear en fila */
+    align-items: center; /* Alinear verticalmente en el centro */
+    gap: 10px; /* Espacio entre los textos */
+    margin-top: -240px;
+}
+
+.Principal1,
+.Principal2 {
+    margin: 0; /* Eliminar márgenes predeterminados */
+    color: #ffffff;
+}
+
+
+
+
