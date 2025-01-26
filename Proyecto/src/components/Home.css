@@ -25,9 +25,9 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-end; /* Alinea todo el menú a la derecha */
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
